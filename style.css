@@ -2,3 +2,15 @@
     margin: 0px;
     padding: 0px;
 }
+.erro{
+    display: none;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+.acerto{
+    display: none;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+}
