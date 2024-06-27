@@ -1,13 +1,17 @@
     $(document).ready(function() {
-        $('#botao1').click(function()
-        {
+        $('#exibir').click(function(){
             $('p').hide('slow');
 
         });
-        $('#botao2').click(function()
-        {
+        $('#esconder').click(function(){
             $('p').show('slow');
 
+        });
+        $("#direita").click(function(){
+            $('.caixa').animate({left: '1000px'});
+        });
+        $("#esquerda").click(function(){
+            $('.caixa').animate({right: '10px'});
         });
 
 
